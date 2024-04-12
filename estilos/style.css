@@ -58,6 +58,9 @@ section#login {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
+
+    transition: width 0.4s, height 0.4s;
+    transition-timing-function: ease; /* Da uma suavizada durante a animação */
 }
 
 section#login > div#imagem {
@@ -71,4 +74,5 @@ section#login > div#imagem {
 section#login > div#formulario {
     display: block;
     padding: 10px;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.539);
 }
